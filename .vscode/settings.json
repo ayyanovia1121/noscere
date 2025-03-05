@@ -1,3 +1,4 @@
 {
-  "conventionalCommits.scopes": ["ui", "setup"]
+  "conventionalCommits.scopes": ["ui", "setup"],
+  "conventionalCommits.emojiFormat": "emoji"
 }
