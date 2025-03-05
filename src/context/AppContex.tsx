@@ -1,3 +1,4 @@
+'use client'
 import { createContext, useContext } from "react";
 
 // app context type
@@ -15,7 +16,7 @@ export default function AppContextProvider ({
 }:{
     children: React.ReactNode;
 }) {
-    return <AppContext.Provider value={defaultState}>{children}</AppContext.Provider>
+    return <AppContext.Provider value={{}}>{children}</AppContext.Provider>
 }
 
 export function useAppContext() {
