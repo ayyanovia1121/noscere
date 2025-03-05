@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from '../global/Logo'
 import { FiSidebar } from 'react-icons/fi';
-import MenuSection from './menuSection';
+import MainSection from './main-section';
 import SettingSection from './settingSection';
 
 const Sidebar = () => {
@@ -12,7 +12,7 @@ const Sidebar = () => {
           <Logo />
           <FiSidebar className="text-sm text-slate-500" />
         </div>
-        <MenuSection />
+        <MainSection />
         <SettingSection />
       </div>
     </div>
